@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Om Noez TV</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP NAVBAR -->
+<header class="topbar">
+  <div class="logo">📺 Om Noez TV</div>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Cari video...">
+  </div>
+
+  <div class="profile">👤</div>
+</header>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <div>🏠 Beranda</div>
+  <div>🔥 Trending</div>
+  <div>🎵 Musik</div>
+  <div>🎮 Gaming</div>
+  <div>📚 Edukasi</div>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="main">
+
+  <!-- VIDEO PLAYER -->
+  <div class="player">
+    <video id="videoPlayer" controls>
+      <source src="videos/sample1.mp4" type="video/mp4">
+    </video>
+    <h2 id="videoTitle">Judul Video</h2>
+  </div>
+
+  <!-- VIDEO GRID -->
+  <div id="videoGrid" class="grid"></div>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
